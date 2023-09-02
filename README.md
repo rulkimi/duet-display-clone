@@ -1,6 +1,8 @@
 # Duet Display Website Clone
 
-This repository contains a clone of the Duet Display website created using HTML and CSS. The Duet Display website is a platform that allows users to extend their computer screens using other devices, such as iPads and Android devices.
+This repository contains a clone of the Duet Display website created using HTML and CSS. The Duet Display website is a platform that allows users to extend their computer screens using other devices, such as iPads and Android devices. This repository contains an attempt to replicate the Duet Display website for educational purposes, particularly to improve HTML and CSS skills. Please note that this is not an exact replica of the original website, but an exercise undertaken to learn and practice web development techniques.
+
+For a live preview of the website, you can visit it [here](https://rulkimi.github.io/duet-display-clone/).
 
 ## Purpose
 
