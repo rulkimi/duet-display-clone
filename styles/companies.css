@@ -1,0 +1,17 @@
+.companies{
+  background-color: rgb(244, 244, 244);
+  display: flex;
+  justify-content: space-between;
+}
+
+.companies img{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  height: 40px;
+}
+
+@media screen and (max-width: 500px) {
+  .amazon, .gl {
+    display: none;
+  }
+}

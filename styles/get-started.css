@@ -1,0 +1,69 @@
+.get-started{
+  margin-top: 0;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.get-started::before {
+  content: ''; /* pseudo-elements */
+  position: absolute;
+  bottom: 0;
+  left: 50%; /* position the left edge to the middle of the container */
+  transform: translateX(-50%); /* center horizontally */
+  width: 300px; 
+  height: 1px; 
+  background-color: rgb(224, 230, 233);
+}
+
+.get-started div {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+}
+
+.get-started p{
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 250px;
+  text-align: center;
+}
+
+.get-started button{
+  background-color: white;
+  font-size: 20px;
+  padding: 10px 25px;
+  border-color: rgb(37, 152, 224);
+  color: rgb(37, 152, 224);
+  border-style: solid;
+  border-radius: 30px;
+  text-align: center;
+  transition: box-shadow 0.25s;
+}
+
+.get-started button:hover{
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(37, 152, 224, 0.8) ;
+}
+
+.os-logo{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.os-logo div{
+  display: block;
+  align-items: block;
+  margin-top: 0 15px;
+}
+
+.os-logo img{
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+

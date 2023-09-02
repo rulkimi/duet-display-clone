@@ -1,0 +1,83 @@
+.characteristics{
+  padding-top: 125px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.characteristics div{
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+}
+
+.characteristics div div{
+  padding: 17px 17px ;
+  margin: 0px 20px;
+  height: 30px;
+}
+
+.incredibly-fast-icon{
+  background-color: rgba(243, 142, 0, 0.15);
+  border-radius: 8px;
+}
+
+.cross-platform-icon{
+  background-color: rgba(34, 189, 246, 0.15);
+  border-radius: 100%;
+}
+
+.constantly-improving-icon{
+  background-color: rgb(243, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.secure-icon{
+  background-color: rgba(108, 1, 165, 0.15);
+  border-radius: 8px;
+}
+
+.instant-support-icon{
+  background-color: rgba(4, 244, 200, 0.15);
+  border-radius: 8px;
+}
+
+.completely-software-icon{
+  background-color: rgba(49, 243, 0, 0.15);
+  border-radius: 8px;
+}
+
+.characteristics p{
+  max-width: 400px;
+  line-height: 35px;
+  margin-top: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.characteristics p span{
+  font-weight: normal;
+  font-size: 25px;
+  color: rgb(149, 149, 149);
+}
+
+
+@media screen and (max-width: 900px) {
+  .characteristics{
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
+  .characteristics p{
+    max-width: 600px;
+}
+
+  .characteristics div{
+    height: 100%;
+    margin-bottom: 20px;
+  }
+
+}
